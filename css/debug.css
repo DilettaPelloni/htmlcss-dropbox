@@ -31,14 +31,14 @@
 } */
 
 /* PLAN */
-.debug .plan {
+/* .debug .plan {
     background-color: aqua;
-}
+} */
 
-.debug .plan > .small-container {
+/* .debug .plan > .small-container {
     background-color: olive;
-    /* min-height: 900px; */
-}
+    min-height: 900px;
+} */
 
 /* PARTNER */
 .debug .partner {
