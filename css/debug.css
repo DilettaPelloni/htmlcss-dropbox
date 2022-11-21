@@ -51,24 +51,24 @@
 } */
 
 /* OPERATIONS */
-.debug .operations {
+/* .debug .operations {
     background-color: teal;
 }
 
 .debug .operations > .small-container {
     background-color: yellowgreen;
     min-height: 1000px;
-}
+} */
 
 /* BUSINESS */
-.debug .business {
+/* .debug .business {
     background-color: indianred;
 }
 
 .debug .business > .small-container {
     background-color: orange;
     min-height: 200px;
-}
+} */
 
 /* LOGO GALLERY */
 .logo-gallery > * {

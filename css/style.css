@@ -183,8 +183,20 @@ main {
 }
 
 /* OPERATIONS */
+.operations .card-box {
+    flex-wrap: wrap;
+}
+
+.operations .card {
+    width: calc(100% / 3);
+    padding: 0 20px 50px;
+}
 
 /* BUSINESS */
+
+.business a {
+    display: inline-block;
+}
 
 /* LOGO GALLERY */
 .logo-gallery > * {
