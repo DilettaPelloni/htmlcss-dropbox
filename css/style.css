@@ -1,8 +1,8 @@
-/* HEADER */
+/* ----- HEADER ----- */
 header {
     height: 70px;
     width: 100vw;
-    
+
     position: fixed;
     top: 0;
     left: 0;
@@ -10,4 +10,19 @@ header {
 
 header > * {
     width: 50%;
+}
+
+/* ----- MAIN ----- */
+main {
+    margin-top: 70px;
+}
+
+.title {
+    background-color: #B4D0E7;
+}
+
+.title .img-box {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
 }

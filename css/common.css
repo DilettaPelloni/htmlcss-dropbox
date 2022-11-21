@@ -10,3 +10,15 @@
     display: flex;
 }
 
+/* CONTAINER */
+.big-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* POSITION */
+
+.relative {
+    position: relative;
+}
+

@@ -1,3 +1,4 @@
+/* ----- HEADER ----- */
 .debug header {
     background-color: lawngreen;
 }
@@ -8,5 +9,22 @@
 
 .debug .r-column {
     background-color: gold;
+}
+
+
+/* ----- MAIN ----- */
+.debug .title {
+    height: 600px;
+}
+
+.debug .title > .big-container {
+    background-color: blueviolet;
+    min-height: 100%;
+}
+
+.debug .img-box {
+    background-color: royalblue;
+    height: 400px;
+    width: 650px;
 }
 
