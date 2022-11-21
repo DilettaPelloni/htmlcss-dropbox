@@ -48,4 +48,9 @@ main {
     height: calc((100vw - 20px) / 6);
 }
 
+/* TRIAL */
+.trial {
+    background-color: #B4D0E7;
+}
+
 
