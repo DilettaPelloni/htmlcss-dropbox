@@ -37,7 +37,7 @@
 
 .debug .plan > .small-container {
     background-color: olive;
-    min-height: 900px;
+    /* min-height: 900px; */
 }
 
 /* PARTNER */
@@ -47,7 +47,7 @@
 
 .debug .partner > .small-container {
     background-color: darkkhaki;
-    min-height: 400px;
+    /* min-height: 400px; */
 }
 
 /* OPERATIONS */
