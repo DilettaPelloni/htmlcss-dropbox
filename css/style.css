@@ -172,13 +172,15 @@ main {
     padding-left: 20px;
 }
 
-
-
-
-
-
-
 /* PARTNER */
+.partner .img-box {
+    width: 60%;
+}
+
+.partner .text-box {
+    width: 40%;
+    padding: 0 40px;
+}
 
 /* OPERATIONS */
 

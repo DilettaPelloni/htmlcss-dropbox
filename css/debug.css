@@ -41,14 +41,14 @@
 } */
 
 /* PARTNER */
-.debug .partner {
+/* .debug .partner {
     background-color: saddlebrown;
 }
 
 .debug .partner > .small-container {
     background-color: darkkhaki;
-    /* min-height: 400px; */
-}
+    min-height: 400px;
+} */
 
 /* OPERATIONS */
 .debug .operations {
