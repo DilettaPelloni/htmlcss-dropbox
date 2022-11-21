@@ -17,6 +17,7 @@ main {
     margin-top: 70px;
 }
 
+/* TITLE */
 .title {
     background-color: #B4D0E7;
 }
@@ -26,3 +27,25 @@ main {
     right: 0;
     bottom: -50px;
 }
+
+/* PLAN */
+
+/* PARTNER */
+
+/* OPERATIONS */
+
+/* BUSINESS */
+
+/* LOGO GALLERY */
+.logo-gallery > * {
+    width: calc(100% / 3);
+
+    flex-wrap: wrap;
+}
+
+.logo-gallery .logo-box {
+    width: calc((100vw - 20px) / 6);
+    height: calc((100vw - 20px) / 6);
+}
+
+

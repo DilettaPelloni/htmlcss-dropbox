@@ -13,6 +13,8 @@
 
 
 /* ----- MAIN ----- */
+
+/* TITLE */
 .debug .title {
     height: 600px;
 }
@@ -28,3 +30,54 @@
     width: 650px;
 }
 
+/* PLAN */
+.debug .plan {
+    background-color: aqua;
+}
+
+.debug .plan > .small-container {
+    background-color: olive;
+    min-height: 900px;
+}
+
+/* PARTNER */
+.debug .partner {
+    background-color: saddlebrown;
+}
+
+.debug .partner > .small-container {
+    background-color: darkkhaki;
+    min-height: 400px;
+}
+
+
+/* OPERATIONS */
+.debug .operations {
+    background-color: teal;
+}
+
+.debug .operations > .small-container {
+    background-color: yellowgreen;
+    min-height: 1000px;
+}
+
+/* BUSINESS */
+.debug .business {
+    background-color: indianred;
+}
+
+.debug .business > .small-container {
+    background-color: orange;
+    min-height: 200px;
+}
+
+/* LOGO GALLERY */
+.logo-gallery > * {
+    background-color: bisque;
+    /* border: 1px solid black; */
+}
+
+.debug .logo-gallery .logo-box {
+    background-color: brown;
+    border: 1px solid black;
+}

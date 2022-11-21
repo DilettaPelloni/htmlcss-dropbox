@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+body {
+    width: calc(100vw - (100vw - 100%));
+  }
+
+/* MARGIN */
+.marg-t-120 {
+    margin-top: 120px;
+}
+
 /* FLEX */
 .flex {
     display: flex;
@@ -13,6 +22,11 @@
 /* CONTAINER */
 .big-container {
     max-width: 1200px;
+    margin: 0 auto;
+}
+
+.small-container {
+    max-width: 1000px;
     margin: 0 auto;
 }
 
