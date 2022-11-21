@@ -5,9 +5,20 @@
     box-sizing: border-box;
 }
 
-body {
-    width: calc(100vw - (100vw - 100%));
-  }
+/* FONT */
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* BOTTONI */
+.button {
+    display: inline-block;
+
+    background-color: #0061ff;
+    padding: 5px 15px;
+    color: white;
+}
+
 
 /* MARGIN */
 .marg-t-120 {
@@ -17,6 +28,11 @@ body {
 /* FLEX */
 .flex {
     display: flex;
+}
+
+/* POSITION */
+.relative {
+    position: relative;
 }
 
 /* CONTAINER */
@@ -30,8 +46,4 @@ body {
     margin: 0 auto;
 }
 
-/* POSITION */
-.relative {
-    position: relative;
-}
 

@@ -1,7 +1,9 @@
 /* ----- HEADER ----- */
 header {
-    height: 70px;
+    height: 80px;
     width: 100vw;
+
+    background-color: white;
 
     position: fixed;
     top: 0;
@@ -11,6 +13,37 @@ header {
 
 header > * {
     width: 50%;
+    align-items: center;
+    padding: 0 40px 0 25px;
+}
+
+header img {
+    margin-right: 40px;
+}
+
+header ul {
+    list-style: none;
+    height: 100%;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+header ul li:hover{
+    border-bottom: 3px solid #0061FF;
+}
+
+header nav ul li a {
+    line-height: 80px;
+
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+
+header .r-column {
+    justify-content: flex-end;
 }
 
 /* ----- MAIN ----- */
