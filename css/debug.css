@@ -1,0 +1,12 @@
+.debug header {
+    background-color: lawngreen;
+}
+
+.debug .l-column {
+    background-color: firebrick;
+}
+
+.debug .r-column {
+    background-color: gold;
+}
+
