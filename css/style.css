@@ -199,6 +199,11 @@ main {
 }
 
 /* LOGO GALLERY */
+.logo-gallery {
+    align-items: flex-start;
+    overflow: hidden;
+}
+
 .logo-gallery > * {
     width: calc(100% / 3);
 
@@ -212,6 +217,7 @@ main {
 
 .logo-gallery .central-section {
     background-color: #F5F5F5;
+    overflow: hidden;
 }
 
 .logo-gallery .logo-box.designit {
