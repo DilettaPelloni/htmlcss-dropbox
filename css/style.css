@@ -53,4 +53,13 @@ main {
     background-color: #B4D0E7;
 }
 
+/* ----- FOOTER ----- */
+footer {
+    background-color: #000;
+}
+
+/* TOP SECTION */
+.t-section .list-box {
+    width: calc(100% / 5);
+}
 

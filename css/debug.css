@@ -50,7 +50,6 @@
     min-height: 400px;
 }
 
-
 /* OPERATIONS */
 .debug .operations {
     background-color: teal;
@@ -98,4 +97,20 @@
     height: 300px;
 }
 
+
+/* ----- FOOTER ----- */
+.debug .t-section {
+    min-height: 500px;
+    background-color: aqua;
+}
+
+.debug .t-section .list-box {
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.debug .b-section {
+    min-height: 100px;
+    background-color: khaki;
+}
 
