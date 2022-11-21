@@ -53,14 +53,39 @@ main {
 
 /* TITLE */
 .title {
+    padding: 80px 0 20px;
     background-color: #B4D0E7;
 }
 
+.title h1 {
+    font-size: 5em;
+    font-weight: 900;
+}
+
+.title .small-column {
+    width: 30%;
+    margin-top: 50px;
+}
+
 .title .img-box {
+    width: 70%;
+
     position: absolute;
     right: 0;
-    bottom: -50px;
+    bottom: -100px;
 }
+
+.title .button {
+    margin: 30px 0;
+}
+
+.title i {
+    display: inline-block;
+    margin-top: 70px;
+    color: #000;
+    font-size: 3em;
+}
+
 
 /* PLAN */
 

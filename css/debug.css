@@ -15,20 +15,20 @@
 /* ----- MAIN ----- */
 
 /* TITLE */
-.debug .title {
+/* .debug .title {
     height: 600px;
-}
+} */
 
-.debug .title > .big-container {
+/* .debug .title > .big-container {
     background-color: blueviolet;
     min-height: 100%;
-}
+} */
 
-.debug .img-box {
+/* .debug .img-box {
     background-color: royalblue;
     height: 400px;
     width: 650px;
-}
+} */
 
 /* PLAN */
 .debug .plan {
