@@ -210,6 +210,43 @@ main {
     height: calc((100vw - 20px) / 6);
 }
 
+.logo-gallery .central-section {
+    background-color: #F5F5F5;
+}
+
+.logo-gallery .logo-box.designit {
+    background-color: #A2D39B;
+}
+
+.logo-gallery .logo-box.asu {
+    background-color: #61082B;
+}
+
+.logo-gallery .logo-box.uf {
+    background-color: #0093CE;
+}
+
+.logo-gallery .logo-box.topps {
+    background-color: #FF1C1C;
+}
+
+.logo-gallery .logo-box.wbr {
+    background-color: #D5001F;
+}
+
+.logo-gallery .logo-box.hearts {
+    background-color: #B4D0E7;
+}
+
+.logo-gallery .logo-box.lonely {
+    background-color: #0D2481;
+}
+
+.logo-gallery .logo-box.cco {
+    background-color: #FFD830;
+}
+
+
 /* TRIAL */
 .trial {
     background-color: #B4D0E7;
