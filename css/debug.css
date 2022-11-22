@@ -99,7 +99,7 @@
 
 
 /* ----- FOOTER ----- */
-.debug .t-section {
+/* .debug .t-section {
     min-height: 500px;
     background-color: aqua;
 }
@@ -107,10 +107,10 @@
 .debug .t-section .list-box {
     background-color: lightcoral;
     border: 1px solid black;
-}
+} */
 
-.debug .b-section {
+/* .debug .b-section {
     min-height: 100px;
     background-color: khaki;
-}
+} */
 
