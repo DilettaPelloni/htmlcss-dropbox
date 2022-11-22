@@ -277,13 +277,28 @@ main {
     border-color: #D0D0D3;
 }
 
-
-
-
-
 /* TRIAL */
 .trial {
     background-color: #B4D0E7;
+}
+
+.trial .small-container > * {
+    padding: 110px 0;
+}
+
+.trial .title-box {
+    width: 70%;
+    color: #61082B;
+}
+
+.trial .cta-box {
+    width: 30%;
+    text-align: right;
+}
+
+.trial .cta-box a {
+    width: 100%;
+    border: none;
 }
 
 /* ----- FOOTER ----- */
