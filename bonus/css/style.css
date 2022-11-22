@@ -1,0 +1,360 @@
+/* ----- HEADER ----- */
+header {
+    height: 80px;
+    width: 100vw;
+
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
+
+header > * {
+    width: 50%;
+    align-items: center;
+    padding: 0 40px 0 25px;
+}
+
+header img {
+    margin-right: 40px;
+}
+
+header ul {
+    list-style: none;
+    height: 100%;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+header ul li:hover{
+    border-bottom: 3px solid #0061FF;
+}
+
+header nav ul li a {
+    line-height: 80px;
+
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+
+header .r-column {
+    justify-content: flex-end;
+}
+
+/* ----- MAIN ----- */
+main {
+    margin-top: 70px;
+}
+
+/* TITLE */
+.title {
+    padding: 80px 0 20px;
+    background-color: #B4D0E7;
+}
+
+.title h1 {
+    font-size: 5em;
+    font-weight: 900;
+}
+
+.title .small-column {
+    width: 30%;
+}
+
+.title .img-box {
+    width: 70%;
+
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+}
+
+.title .button {
+    margin: 30px 0;
+}
+
+.title i {
+    display: inline-block;
+    margin-top: 70px;
+    color: #000;
+    font-size: 3em;
+}
+
+
+/* PLAN */
+.plan {
+    font-size: 0.9em;
+}
+
+.plan .price {
+    font-weight: bold;
+}
+
+.plan .freq {
+    color: grey;
+}
+
+.plan ul {
+    margin-left: 20px;
+}
+
+.plan .choise-box {
+    display: inline-block;
+    font-size: 0.9em;
+    margin-right: 20px;
+    line-height: 0.9em;
+}
+
+.plan .choise {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 2px;
+    vertical-align: middle;
+
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+}
+
+.plan .choise.active-choise {
+    border: 4px solid #0061FF;
+}
+
+.plan .choise .choise-label {
+    vertical-align: middle;
+}
+
+/* COLONNE */
+.column-layout-3 {
+    justify-content: space-between;
+}
+
+.column {
+    border: 1px solid lightgrey;
+}
+
+.column .button {
+    width: 100%;
+}
+
+.column hr {
+    width: 20%;
+}
+
+.column-header {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.column-content {
+    padding: 0 20px 40px;
+}
+
+.column-layout-3 .column {
+    width: calc(100% / 3 - 40px);
+}
+
+.column-content .right-content {
+    width: 30%;
+    text-align: center;
+    padding-left: 20px;
+}
+
+/* PARTNER */
+.partner .img-box {
+    width: 60%;
+}
+
+.partner .text-box {
+    width: 40%;
+    padding: 0 40px;
+}
+
+/* OPERATIONS */
+.operations .card-box {
+    flex-wrap: wrap;
+}
+
+.operations .card {
+    width: calc(100% / 3);
+    padding: 0 20px 50px;
+}
+
+/* BUSINESS */
+
+.business a {
+    display: inline-block;
+}
+
+/* LOGO GALLERY */
+.logo-gallery {
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.logo-gallery > * {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.logo-gallery > *.flex {
+    flex-wrap: wrap;
+}
+
+/* LOGO BOX */
+.logo-gallery .logo-box {
+    width: 50%;
+    height: 50%;
+
+    position: relative;
+}
+
+.logo-gallery .logo-box > * {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-gallery .logo-box img {
+    filter: invert(100%);
+}
+
+.logo-gallery .logo-box.designit {
+    background-color: #A2D39B;
+}
+
+.logo-gallery .logo-box.asu {
+    background-color: #61082B;
+}
+
+.logo-gallery .logo-box.uf {
+    background-color: #0093CE;
+}
+
+.logo-gallery .logo-box.topps {
+    background-color: #FF1C1C;
+}
+
+.logo-gallery .logo-box.wbr {
+    background-color: #D5001F;
+}
+
+.logo-gallery .logo-box.hearts {
+    background-color: #B4D0E7;
+}
+
+.logo-gallery .logo-box.lonely {
+    background-color: #0D2481;
+}
+
+.logo-gallery .logo-box.cco {
+    background-color: #FFD830;
+}
+
+/* CENTRAL SECTION */
+.logo-gallery .central-section {
+    padding: 40px;
+    background-color: #F5F5F5;
+    overflow:auto;
+}
+
+.logo-gallery .central-section .vertical-img-box {
+    height: 15%;
+}
+
+.logo-gallery .central-section hr {
+    width: 20%;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: #D0D0D3;
+}
+
+/* TRIAL */
+.trial {
+    background-color: #B4D0E7;
+}
+
+.trial .small-container > * {
+    padding: 110px 0;
+}
+
+.trial .title-box {
+    width: 70%;
+    color: #61082B;
+}
+
+.trial .cta-box {
+    width: 30%;
+    text-align: right;
+}
+
+.trial .cta-box a {
+    width: 100%;
+    border: none;
+}
+
+/* FAQ */
+.faq h2 {
+    margin-bottom: 50px;
+}
+
+.faq .line {
+    padding: 30px 0;
+    justify-content: space-between;
+
+    border-top: 1px solid grey;
+}
+
+.faq .line:last-child {
+    border-bottom: 1px solid grey;
+}
+
+.faq .more-content {
+    padding-right: 50px;
+}
+
+/* ----- FOOTER ----- */
+footer {
+    background-color: #000;
+    color: white;
+}
+
+footer hr {
+    width: 10%;
+    border-color: white;
+}
+
+/* TOP SECTION */
+.t-section .list-box {
+    width: calc(100% / 5);
+    padding: 100px 0;
+}
+
+.t-section .list-box ul {
+    list-style: none;
+}
+
+.t-section .list-box a {
+    color: white;
+    text-decoration: none;
+}
+
+/* BOTTOM SECTION */
+.b-section {
+    color: grey;
+    padding: 50px 0;
+}
+
+.b-section .fa-earth-americas {
+    margin-right: 5px;
+}
+
+

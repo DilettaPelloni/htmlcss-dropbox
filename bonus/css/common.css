@@ -1,0 +1,104 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONT */
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* TITOLI */
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+/* BOTTONI */
+.button {
+    display: inline-block;
+
+    text-decoration: none;
+    text-align: center;
+    background-color: #0061ff;
+    padding: 0.5em 1em;
+    color: white;
+}
+
+.button.white-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* IMMAGINI */
+.img-box img {
+    width: 100%;
+}
+
+.vertical-img-box img {
+    height: 100%;
+}
+
+/* COLORI */
+.blue-icon {
+    color: #0061FF;
+}
+
+/* MARGIN */
+.marg-t-120 {
+    margin-top: 120px;
+}
+
+.marg-t-50 {
+    margin-top: 50px;
+}
+
+.marg-t-30 {
+    margin-top: 30px;
+}
+
+.marg-t-15 {
+    margin-top: 15px;
+}
+
+.marg-t-10 {
+    margin-top: 10px;
+}
+
+.marg-t-8 {
+    margin-top: 8px;
+}
+
+/* FLEX */
+.flex {
+    display: flex;
+}
+
+/* POSITION */
+.relative {
+    position: relative;
+}
+
+/* CONTAINER */
+.big-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.small-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
