@@ -46,6 +46,14 @@ h4 {
     width: 100%;
 }
 
+.vertical-img-box img {
+    height: 100%;
+}
+
+/* COLORI */
+.blue-icon {
+    color: #0061FF;
+}
 
 /* MARGIN */
 .marg-t-120 {

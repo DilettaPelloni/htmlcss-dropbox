@@ -100,12 +100,7 @@ main {
 }
 
 .plan ul {
-    list-style-position:outside;
     margin-left: 20px;
-}
-
-.plan i.blue-icon {
-    color: #0061FF;
 }
 
 .plan .choise-box {
@@ -206,18 +201,30 @@ main {
 
 .logo-gallery > * {
     width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
 
+.logo-gallery > *.flex {
     flex-wrap: wrap;
 }
 
+/* LOGO BOX */
 .logo-gallery .logo-box {
-    width: calc((100vw - 20px) / 6);
-    height: calc((100vw - 20px) / 6);
+    width: 50%;
+    height: 50%;
+
+    position: relative;
 }
 
-.logo-gallery .central-section {
-    background-color: #F5F5F5;
-    overflow: hidden;
+.logo-gallery .logo-box > * {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-gallery .logo-box img {
+    filter: invert(100%);
 }
 
 .logo-gallery .logo-box.designit {
@@ -251,6 +258,27 @@ main {
 .logo-gallery .logo-box.cco {
     background-color: #FFD830;
 }
+
+/* CENTRAL SECTION */
+.logo-gallery .central-section {
+    padding: 40px;
+    background-color: #F5F5F5;
+    overflow:auto;
+}
+
+.logo-gallery .central-section .vertical-img-box {
+    height: 15%;
+}
+
+.logo-gallery .central-section hr {
+    width: 20%;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: #D0D0D3;
+}
+
+
+
 
 
 /* TRIAL */
