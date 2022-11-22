@@ -301,6 +301,26 @@ main {
     border: none;
 }
 
+/* FAQ */
+.faq h2 {
+    margin-bottom: 50px;
+}
+
+.faq .line {
+    padding: 30px 0;
+    justify-content: space-between;
+
+    border-top: 1px solid grey;
+}
+
+.faq .line:last-child {
+    border-bottom: 1px solid grey;
+}
+
+.faq .more-content {
+    padding-right: 50px;
+}
+
 /* ----- FOOTER ----- */
 footer {
     background-color: #000;
