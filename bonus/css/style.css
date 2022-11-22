@@ -321,6 +321,30 @@ main {
     padding-right: 50px;
 }
 
+.faq .question {
+    font-weight: bold;
+}
+
+.faq .answer {
+    display: none;
+}
+
+.faq .fa-chevron-up {
+    display: none;
+}
+
+.faq .line:hover .answer {
+    display: block;
+}
+
+.faq .line:hover .fa-chevron-down {
+    display: none;
+}
+
+.faq .line:hover .fa-chevron-up {
+    display: inline;
+}
+
 /* ----- FOOTER ----- */
 footer {
     background-color: #000;
