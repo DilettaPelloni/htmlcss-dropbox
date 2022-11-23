@@ -409,7 +409,12 @@ footer hr {
 
 .t-section .list-box a {
     color: white;
+    padding: 5px 0;
     text-decoration: none;
+}
+
+.t-section .list-box a:hover {
+    text-decoration: underline;
 }
 
 /* BOTTOM SECTION */
