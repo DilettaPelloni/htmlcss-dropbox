@@ -11,7 +11,7 @@ header {
     z-index: 30;
 }
 
-header > .nav-container > * {
+header > * {
     width: 50%;
     align-items: center;
     padding: 0 40px 0 25px;
@@ -31,13 +31,8 @@ header ul li{
     margin-right: 40px;
 }
 
-header .nav-container ul li {
-    padding: 0 15px;
-}
-
-header .nav-container ul li:hover{
-    background-color: #0061FF;
-
+header ul li:hover{
+    border-bottom: 3px solid #0061FF;
 }
 
 header nav ul li a {
@@ -47,46 +42,8 @@ header nav ul li a {
     color: rgb(19, 19, 19);
 }
 
-header nav ul li:hover a {
-    color: white;
-}
-
 header .r-column {
     justify-content: flex-end;
-}
-
-/* SUB MENU */
-.sub-menu {
-    width: 100%;
-    height: 50px;
-    padding: 0 200px 0;
-    background-color: #0061FF;
-
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 15;
-
-    /* display: none; */
-}
-
-.sub-menu ul li {
-    height: 100%;
-}
-
-
-.sub-menu ul li a{
-    line-height: 50px;
-    color: white;
-    text-decoration: none;
-}
-
-.sub-menu ul li:hover a{
-    text-decoration: underline;
-}
-
-li#why:hover .sub-menu {
-    display: block;
 }
 
 /* ----- MAIN ----- */
