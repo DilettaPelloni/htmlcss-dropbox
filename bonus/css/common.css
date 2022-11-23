@@ -30,15 +30,30 @@ h4 {
 
     text-decoration: none;
     text-align: center;
-    background-color: #0061ff;
     padding: 0.5em 1em;
-    color: white;
 }
+
+.button.blue-button {
+    color: white;
+    background-color: #0061ff;
+}
+
+
+.button.blue-button:hover {
+    background-color: #1a98ff;
+}
+
 
 .button.white-button {
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+
+.button.white-button:hover {
+    background-color: #0061ff;
+    color: white;
+    border: none;
 }
 
 /* IMMAGINI */
