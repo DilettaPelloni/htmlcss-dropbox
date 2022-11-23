@@ -82,7 +82,6 @@ header .r-column {
     color: white;
 }
 
-
 /* ----- MAIN ----- */
 main {
     margin-top: 80px;
@@ -111,11 +110,19 @@ main {
     bottom: -100px;
 }
 
+.title .vertical-img-box {
+    height: 450px;
+
+    position: absolute;
+    right: 0;
+    bottom: -130px;
+}
+
 .title .button {
     margin: 30px 0;
 }
 
-.title i {
+.title .small-column i {
     display: inline-block;
     margin-top: 70px;
     color: #000;
@@ -215,11 +222,11 @@ main {
 }
 
 /* OPERATIONS */
-.operations .card-box {
+.card-box {
     flex-wrap: wrap;
 }
 
-.operations .card {
+.card {
     width: calc(100% / 3);
     padding: 0 20px 50px;
 }
@@ -425,6 +432,90 @@ footer hr {
 
 .b-section .fa-earth-americas {
     margin-right: 5px;
+}
+
+
+/* ---------- PAGINA SUPPORTO ----------*/
+
+/* SUPPORT */
+#support hr {
+    width: 20%;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: #D0D0D3;
+}
+
+#support ul {
+    list-style: none;
+}
+
+#support ul li {
+    margin-top: 15px;
+}
+
+#support ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* PRODOTTI */
+.product a.card {
+    color: #000;
+    text-decoration: none;
+}
+
+/* ARTICOLI */
+.articles {
+    background-color: #0061FF;
+    color: white;
+}
+
+.articles .small-container {
+    padding: 100px 0;
+}
+
+.articles h2 {
+    text-align: center;
+}
+
+.articles h4 {
+    flex-grow: 0;
+    height: 20%;
+}
+
+.articles p {
+    flex-grow: 1;
+}
+
+.articles .article {
+    width: calc(100%/3);
+    padding: 0 15px;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.articles .article a {
+    display: inline-block;
+    color: white;
+    text-underline-offset: 5px;
+
+    flex-grow: 0;
+}
+
+/* LAST SECTION */
+.last-section .column .column-content {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.last-section .column .column-content p {
+    flex-grow: 1;
+}
+
+.last-section .column .column-content a {
+    flex-grow: 0;
 }
 
 
