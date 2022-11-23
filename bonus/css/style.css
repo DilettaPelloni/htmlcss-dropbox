@@ -21,23 +21,28 @@ header img {
     margin-right: 40px;
 }
 
-header ul {
+header .header-menu {
     list-style: none;
     height: 100%;
 }
 
-header ul li{
+header .header-menu > li{
     display: inline-block;
     margin-right: 40px;
+    position: relative;
 }
 
-header ul li:hover{
+header .header-menu > li:hover > a{
     border-bottom: 3px solid #0061FF;
 }
 
-header nav ul li a {
+header nav .header-menu > li > a {
     line-height: 80px;
+    display: inline-block;
+    height: 100%;
+}
 
+header nav .header-menu > li a {
     text-decoration: none;
     color: rgb(19, 19, 19);
 }
@@ -45,6 +50,40 @@ header nav ul li a {
 header .r-column {
     justify-content: flex-end;
 }
+
+/* SOTTO MENU */
+.sub-menu {
+    background-color: white;
+    list-style: none;
+    padding: 10px 5px;
+    min-width: 200% ;
+
+    position: absolute;
+    left: 0;
+
+    display: none;
+}
+
+.header-menu > li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li{
+    /* background-color: sandybrown; */
+}
+
+.sub-menu li a {
+    /* background-color: aqua; */
+    padding: 10px 5px;
+    width: 100%;
+    display: inline-block;
+}
+
+.sub-menu li:hover a {
+    background-color: #0061FF;
+    color: white;
+}
+
 
 /* ----- MAIN ----- */
 main {
