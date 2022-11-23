@@ -41,6 +41,7 @@ h4 {
 
 .button.blue-button:hover {
     background-color: #1a98ff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 
@@ -54,6 +55,7 @@ h4 {
     background-color: #0061ff;
     color: white;
     border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 /* IMMAGINI */
